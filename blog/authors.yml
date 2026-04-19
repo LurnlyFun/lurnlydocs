@@ -1,12 +1,17 @@
 ernests:
   name: Ernests Ķauķis
   title: Founder & Lead Developer
+  description: Founder of Lurnly. Responsible for website design & UI/UX, full-stack development, hosting & domain management, WordPress administration, project vision & strategy, and platform architecture.
   url: https://lurnly.fun
   image_url: https://lurnly.fun/wp-content/uploads/2025/11/EKPFP.png
+  page:
+    permalink: /ernests-kaukis
 
 svens:
   name: Svens Olivers Ummers
   title: Operations & Support Lead
+  description: Operations & Support Lead at Lurnly. Responsible for translation & localization, content fact-checking, quality assurance & testing, form data organization, and user support team management.
   url: https://lurnly.fun
   image_url: https://lurnly.fun/wp-content/uploads/2025/11/SOUPFP.png
-
+  page:
+    permalink: /svens-olivers-ummers
