@@ -1,0 +1,35 @@
+/* Infima primary color overrides — Lurnly purple */
+:root {
+  --ifm-color-primary: #8c52ff;
+  --ifm-color-primary-dark: #7a3dff;
+  --ifm-color-primary-darker: #7133ff;
+  --ifm-color-primary-darkest: #5a14ff;
+  --ifm-color-primary-light: #9e67ff;
+  --ifm-color-primary-lighter: #a771ff;
+  --ifm-color-primary-lightest: #c2a0ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(140, 82, 255, 0.1);
+}
+
+/* Force light mode — dark theme variables are intentionally identical */
+[data-theme='dark'] {
+  --ifm-color-primary: #8c52ff;
+  --ifm-color-primary-dark: #7a3dff;
+  --ifm-color-primary-darker: #7133ff;
+  --ifm-color-primary-darkest: #5a14ff;
+  --ifm-color-primary-light: #9e67ff;
+  --ifm-color-primary-lighter: #a771ff;
+  --ifm-color-primary-lightest: #c2a0ff;
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+  --ifm-font-color-base: #1c1e21;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #303846;
+  --docusaurus-highlighted-code-line-bg: rgba(140, 82, 255, 0.1);
+}
+
+/* Hero dot-pattern scroll animation (global so CSS module can reference it) */
+@keyframes lurnlyScrollBg {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-100px); }
+}

@@ -1,0 +1,20 @@
+largeupdate:
+  label: Large Update
+
+smallupdate:
+  label: Small Update
+
+quickfix:
+  label: Quick-Fix
+
+newfeatures:
+  label: New Features
+
+forstudents:
+  label: For Students
+
+forteachers:
+  label: For Teachers
+
+announcment:
+  label: Announcment
