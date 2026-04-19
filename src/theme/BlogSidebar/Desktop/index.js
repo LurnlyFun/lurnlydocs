@@ -13,13 +13,13 @@ const authors = [
     name: 'Ernests Ķauķis',
     title: 'Founder & Lead Developer',
     image: 'https://lurnly.fun/wp-content/uploads/2025/11/EKPFP.png',
-    href: '/ernests-kaukis',
+    href: '/blog/authors/ernests-kaukis',
   },
   {
     name: 'Svens Olivers Ummers',
     title: 'Operations & Support Lead',
     image: 'https://lurnly.fun/wp-content/uploads/2025/11/SOUPFP.png',
-    href: '/svens-olivers-ummers',
+    href: '/blog/authors/svens-olivers-ummers',
   },
 ];
 
