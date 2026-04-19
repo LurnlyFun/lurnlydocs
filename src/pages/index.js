@@ -36,7 +36,7 @@ const DOC_CARDS = [
     icon: '🚀',
     title: 'Getting Started',
     desc: 'Set up Lurnly and create your very first deck.',
-    to: '/docs/intro',
+    to: '/docs/createdecks/getting-started',
   },
   {
     icon: '⚙️',
