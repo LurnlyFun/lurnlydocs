@@ -1,0 +1,36 @@
+{
+  "link.title.Docs": {
+    "message": "Dokumenti",
+    "description": "The title of the Docs section in the footer"
+  },
+  "link.title.Community": {
+    "message": "Kopiena",
+    "description": "The title of the Community section in the footer"
+  },
+  "link.title.More": {
+    "message": "Vairāk",
+    "description": "The title of the More section in the footer"
+  },
+  "link.item.label.Documentation": {
+    "message": "Dokumentācija"
+  },
+  "link.item.label.Our Website": {
+    "message": "Mūsu vietne"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook"
+  },
+  "link.item.label.News": {
+    "message": "Ziņas"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Lurnly. Veidots ar Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

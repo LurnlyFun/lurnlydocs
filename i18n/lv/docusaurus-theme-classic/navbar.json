@@ -1,0 +1,10 @@
+{
+  "item.label.Documentation": {
+    "message": "Dokumentācija",
+    "description": "The label for the Documentation navbar item"
+  },
+  "item.label.News": {
+    "message": "Ziņas",
+    "description": "The label for the News navbar item"
+  }
+}

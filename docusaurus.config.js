@@ -90,7 +90,7 @@ const config = {
             label: 'Documentation',
           },
           {to: '/blog', label: 'News', position: 'left'},
-
+          {type: 'localeDropdown', position: 'right'},
         ],
       },
       footer: {

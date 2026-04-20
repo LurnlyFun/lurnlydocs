@@ -1,0 +1,10 @@
+{
+  "sidebar.tutorialSidebar.category.The Dashboard": {
+    "message": "Vadības panelis",
+    "description": "The label for category The Dashboard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Creating Decks": {
+    "message": "Komplektu izveide",
+    "description": "The label for category Creating Decks in sidebar tutorialSidebar"
+  }
+}
