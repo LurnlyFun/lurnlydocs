@@ -21,8 +21,8 @@ Izseko konsekventās mācīšanās dienas, izmantojot dinamisku emocijzīmju sis
         <span style={{fontSize: '1.15rem', fontWeight: 900, color: 'white', lineHeight: '1.1'}}>30</span>
       </div>
       <div style={{flex: 1, minWidth: 0}}>
-        <div style={{fontSize: '0.68rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: '#bbb', marginBottom: '5px'}}>Dienu sērija</div>
-        <div style={{fontSize: '0.95rem', fontWeight: 700, color: '#333', lineHeight: '1.35'}}>Leģendāra neatlaidība! 👑</div>
+        <div style={{fontSize: '0.68rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: '#bbb', marginBottom: '5px'}}>Day Streak</div>
+        <div style={{fontSize: '0.95rem', fontWeight: 700, color: '#333', lineHeight: '1.35'}}>Legendary dedication! 👑</div>
       </div>
     </div>
   </div>
@@ -39,11 +39,11 @@ Parāda jūsu lokālās mācīšanās bibliotēkas kopējo apjomu.
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', maxWidth: '440px'}}>
   <div style={{background: 'white', borderRadius: '12px', padding: '18px', textAlign: 'center', boxShadow: '0 4px 20px rgba(0,0,0,0.08)', border: '2px solid #ffd4f4'}}>
     <div style={{fontSize: '2rem', fontWeight: 900, background: 'linear-gradient(135deg, #8c52ff 0%, #ff52d4 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', marginBottom: '5px'}}>12</div>
-    <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Kopējie komplekti</div>
+    <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Total Decks</div>
   </div>
   <div style={{background: 'white', borderRadius: '12px', padding: '18px', textAlign: 'center', boxShadow: '0 4px 20px rgba(0,0,0,0.08)', border: '2px solid #ffd4f4'}}>
     <div style={{fontSize: '2rem', fontWeight: 900, background: 'linear-gradient(135deg, #8c52ff 0%, #ff52d4 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', marginBottom: '5px'}}>248</div>
-    <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Kopējās kartes</div>
+    <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Total Cards</div>
   </div>
 </div>
 
@@ -56,7 +56,7 @@ Parāda, cik kartes esat pabeidzis pašreizējā 24 stundu periodā.
 
 <div style={{background: 'white', borderRadius: '12px', padding: '18px', textAlign: 'center', boxShadow: '0 4px 20px rgba(0,0,0,0.08)', border: '2px solid #ffd4f4', maxWidth: '200px'}}>
   <div style={{fontSize: '2rem', fontWeight: 900, background: 'linear-gradient(135deg, #8c52ff 0%, #ff52d4 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', marginBottom: '5px'}}>24</div>
-  <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Šodien mācīts</div>
+  <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Studied Today</div>
 </div>
 
 <br/>
@@ -69,7 +69,7 @@ Aprēķina vidējo pabeigšanas procentu visos jūsu komplektos.
 
 <div style={{background: 'white', borderRadius: '12px', padding: '18px', textAlign: 'center', boxShadow: '0 4px 20px rgba(0,0,0,0.08)', border: '2px solid #ffd4f4', maxWidth: '200px'}}>
   <div style={{fontSize: '2rem', fontWeight: 900, background: 'linear-gradient(135deg, #8c52ff 0%, #ff52d4 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', marginBottom: '5px'}}>78%</div>
-  <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Vidējais progress</div>
+  <div style={{color: '#666', fontSize: '0.85rem', fontWeight: 600}}>Avg Progress</div>
 </div>
 
 ---

@@ -20,12 +20,12 @@ Pēdējo komplektu sadaļa nodrošina tūlītēju piekļuvi jūsu visaktīvākaj
 ---
 **Katra komplekta karte satur ātras piekļuves izvēlni pārvaldībai:**
 
-**▶️ Mācīties:** Palaiž komplektu mācīšanās režīmā.
+**▶️ Study:** Palaiž komplektu mācīšanās režīmā.
 
-**✏️ Rediģēt:** Atver komplektu izveides/rediģēšanas saskarnē.
+**✏️ Edit:** Atver komplektu izveides/rediģēšanas saskarnē.
 
-**📤 Eksportēt:** Lejupielādē komplektu kā .json failu dublēšanai vai kopīgošanai.
+**📤 Export:** Lejupielādē komplektu kā .json failu dublēšanai vai kopīgošanai.
 
-**🗑️ Dzēst:** Neatgriezeniski noņem komplektu no jūsu lokālās krātuves.
+**🗑️ Delete:** Neatgriezeniski noņem komplektu no jūsu lokālās krātuves.
 
 ---

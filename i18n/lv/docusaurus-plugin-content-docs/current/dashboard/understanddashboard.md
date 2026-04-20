@@ -10,4 +10,4 @@ sidebar_position: 1
 
 Lurnly vadības panelis kalpo kā jūsu centrālais mezgls studiju materiālu pārvaldībai, mācīšanās progresa izsekošanai un ātro darbību veikšanai. Tas ir izstrādāts ar divkāršu izkārtojumu, kas automātiski pielāgojas darbvirsmas un mobilajiem lietotājiem.
 
-Tam var piekļūt, nospiežot "Zibatmiņas kartes" augšējā izvēlnē vai dodoties uz https://lurnly.fun/dashboard
+Tam var piekļūt, nospiežot "Flashcards" augšējā izvēlnē vai dodoties uz https://lurnly.fun/dashboard
