@@ -1,0 +1,74 @@
+{
+  "homepage.hero.tagline": {
+    "message": "Oficiālā dokumentācija",
+    "description": "Hero tagline"
+  },
+  "homepage.hero.cta": {
+    "message": "Sākt →",
+    "description": "Hero CTA button"
+  },
+  "homepage.docs.title": {
+    "message": "Izpētiet dokumentāciju",
+    "description": "Doc cards section title"
+  },
+  "homepage.docs.comingSoon": {
+    "message": "Drīzumā",
+    "description": "Coming soon badge on doc cards"
+  },
+  "homepage.docs.learnMore": {
+    "message": "Uzzināt vairāk →",
+    "description": "Learn more link on doc cards"
+  },
+  "homepage.docs.faq.title": {
+    "message": "BUJ",
+    "description": "FAQ card title"
+  },
+  "homepage.docs.faq.desc": {
+    "message": "Atbildes uz biežāk uzdotajiem jautājumiem par Lurnly.",
+    "description": "FAQ card description"
+  },
+  "homepage.docs.gettingStarted.title": {
+    "message": "Sākums",
+    "description": "Getting Started card title"
+  },
+  "homepage.docs.gettingStarted.desc": {
+    "message": "Iestatiet Lurnly un izveidojiet savu pirmo komplektu.",
+    "description": "Getting Started card description"
+  },
+  "homepage.docs.advanced.title": {
+    "message": "Padziļināta rokasgrāmata",
+    "description": "Advanced Guide card title"
+  },
+  "homepage.docs.advanced.desc": {
+    "message": "Iepazīstieties ar visām Lurnly funkcijām padziļināti.",
+    "description": "Advanced Guide card description"
+  },
+  "homepage.news.title": {
+    "message": "Jaunākās ziņas",
+    "description": "Latest News section title"
+  },
+  "homepage.news.noPosts": {
+    "message": "Vēl nav publicētu ziņu.",
+    "description": "No news posts message"
+  },
+  "homepage.news.readMore": {
+    "message": "Lasīt vairāk →",
+    "description": "Read more link on news cards"
+  },
+  "homepage.news.viewAll": {
+    "message": "Skatīt visas ziņas →",
+    "description": "View all news button"
+  },
+  "homepage.cta.title": {
+    "message": "Gatavs sākt mācīties?",
+    "description": "CTA section title"
+  },
+  "homepage.cta.subtitle": {
+    "message": "Lurnly ir 100% bezmaksas — nav nepieciešams konts.",
+    "description": "CTA section subtitle"
+  },
+  "homepage.cta.btn": {
+    "message": "Atvērt Lurnly →",
+    "description": "CTA button"
+  }
+}

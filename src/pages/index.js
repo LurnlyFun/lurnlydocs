@@ -1,4 +1,5 @@
 import Link from '@docusaurus/Link';
+import {translate} from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { usePluginData } from '@docusaurus/useGlobalData';
 import Layout from '@theme/Layout';
@@ -16,51 +17,59 @@ function Hero() {
           alt="Lurnly"
           className={styles.heroLogo}
         />
-        <p className={styles.heroTagline}>Official Documentation</p>
+        <p className={styles.heroTagline}>
+          {translate({id: 'homepage.hero.tagline', message: 'Official Documentation'})}
+        </p>
         <Link to="/docs/welcome" className={styles.heroBtn}>
-          Get Started →
+          {translate({id: 'homepage.hero.cta', message: 'Get Started →'})}
         </Link>
       </div>
     </div>
   );
 }
 
-const DOC_CARDS = [
-  {
-    icon: '❓',
-    title: 'FAQ',
-    desc: 'Answers to the most common questions about Lurnly.',
-    to: '#',
-  },
-  {
-    icon: '🚀',
-    title: 'Getting Started',
-    desc: 'Set up Lurnly and create your very first deck.',
-    to: '/docs/createdecks/getting-started',
-  },
-  {
-    icon: '⚙️',
-    title: 'Advanced Guide',
-    desc: 'Dive deep into every feature Lurnly has to offer.',
-    to: '#',
-  },
-];
-
 function DocCards() {
+  const cards = [
+    {
+      icon: '❓',
+      title: translate({id: 'homepage.docs.faq.title', message: 'FAQ'}),
+      desc: translate({id: 'homepage.docs.faq.desc', message: 'Answers to the most common questions about Lurnly.'}),
+      to: '#',
+    },
+    {
+      icon: '🚀',
+      title: translate({id: 'homepage.docs.gettingStarted.title', message: 'Getting Started'}),
+      desc: translate({id: 'homepage.docs.gettingStarted.desc', message: 'Set up Lurnly and create your very first deck.'}),
+      to: '/docs/createdecks/getting-started',
+    },
+    {
+      icon: '⚙️',
+      title: translate({id: 'homepage.docs.advanced.title', message: 'Advanced Guide'}),
+      desc: translate({id: 'homepage.docs.advanced.desc', message: 'Dive deep into every feature Lurnly has to offer.'}),
+      to: '#',
+    },
+  ];
+
   return (
     <section className={styles.docCards}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Explore the Docs</h2>
+        <h2 className={styles.sectionTitle}>
+          {translate({id: 'homepage.docs.title', message: 'Explore the Docs'})}
+        </h2>
         <div className={styles.cardsGrid}>
-          {DOC_CARDS.map(({ icon, title, desc, to }) => (
+          {cards.map(({ icon, title, desc, to }) => (
             <Link key={title} to={to} className={styles.card}>
               {to === '#' && (
-                <span className={styles.cardBadge}>Coming Soon</span>
+                <span className={styles.cardBadge}>
+                  {translate({id: 'homepage.docs.comingSoon', message: 'Coming Soon'})}
+                </span>
               )}
               <span className={styles.cardIcon}>{icon}</span>
               <h3 className={styles.cardTitle}>{title}</h3>
               <p className={styles.cardDesc}>{desc}</p>
-              <span className={styles.cardArrow}>Learn more →</span>
+              <span className={styles.cardArrow}>
+                {translate({id: 'homepage.docs.learnMore', message: 'Learn more →'})}
+              </span>
             </Link>
           ))}
         </div>
@@ -76,9 +85,13 @@ function LatestNews() {
   return (
     <section className={styles.latestNews}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Latest News</h2>
+        <h2 className={styles.sectionTitle}>
+          {translate({id: 'homepage.news.title', message: 'Latest News'})}
+        </h2>
         {posts.length === 0 ? (
-          <p className={styles.noNews}>No posts published yet.</p>
+          <p className={styles.noNews}>
+            {translate({id: 'homepage.news.noPosts', message: 'No posts published yet.'})}
+          </p>
         ) : (
           <div className={styles.newsGrid}>
             {posts.map((post) => (
@@ -92,7 +105,9 @@ function LatestNews() {
                   <span className={styles.newsDate}>{post.formattedDate}</span>
                   <h3 className={styles.newsTitle}>{post.title}</h3>
                   <p className={styles.newsDesc}>{post.description}</p>
-                  <span className={styles.newsReadMore}>Read more →</span>
+                  <span className={styles.newsReadMore}>
+                    {translate({id: 'homepage.news.readMore', message: 'Read more →'})}
+                  </span>
                 </div>
               </Link>
             ))}
@@ -100,7 +115,7 @@ function LatestNews() {
         )}
         <div className={styles.newsFooter}>
           <Link to="/blog" className={styles.allNewsBtn}>
-            View All Updates →
+            {translate({id: 'homepage.news.viewAll', message: 'View All Updates →'})}
           </Link>
         </div>
       </div>
@@ -113,12 +128,14 @@ function CTA() {
     <section className={styles.cta}>
       <div className={styles.ctaDots} />
       <div className={styles.container}>
-        <h2 className={styles.ctaTitle}>Ready to start learning?</h2>
+        <h2 className={styles.ctaTitle}>
+          {translate({id: 'homepage.cta.title', message: 'Ready to start learning?'})}
+        </h2>
         <p className={styles.ctaSubtitle}>
-          Lurnly is 100% free — no account needed.
+          {translate({id: 'homepage.cta.subtitle', message: 'Lurnly is 100% free — no account needed.'})}
         </p>
         <Link to="https://lurnly.fun" className={styles.ctaBtn}>
-          Open Lurnly →
+          {translate({id: 'homepage.cta.btn', message: 'Open Lurnly →'})}
         </Link>
       </div>
     </section>
