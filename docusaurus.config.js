@@ -70,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/docusaurus-social-card.gif',
       announcementBar: {
         id: 'dev-notice',
         content: '🚧 This site is under development — some sections and translations may be incomplete.',
